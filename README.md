@@ -1,2 +1,2 @@
 # kittycheung.github.io
-portfolio site
+Portfolio site coded with pug and sass.
