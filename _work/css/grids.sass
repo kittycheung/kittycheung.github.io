@@ -1,0 +1,149 @@
+/*	Kitty Cheung 
+	IAT 339 - P3 Portfolio */
+
+.grid 
+	display: grid
+
+@media(min-width: 20rem) // 320px
+	#contact
+		padding-bottom: 5rem
+
+	.large-text
+		font-size: 1.7rem
+
+@media(min-width: 29rem)
+	.nav-space
+		grid-template-columns: 1fr 0fr 1fr 1fr
+
+	.add-space
+		padding-top: 3rem
+
+	.add-space-work
+		padding-top: 6rem
+
+	#name
+		width: 10rem
+
+	#email 
+		width: 15rem
+		
+	#msg
+		width: 25rem
+
+	nav
+		position: fixed //- https://alvarotrigo.com/blog/sticky-navbar/
+		top: 0
+		width: 100%
+
+	.large-text
+		font-size: 2.7rem
+
+	.padded, footer
+		padding: 3rem
+
+@media(min-width: 35rem) 
+	.two-column-form
+		grid-template-columns: 1fr 1fr
+
+	.large-text
+		font-size: 3rem	
+
+	h2 
+		font-size: 2.6rem
+
+	.plane img
+		padding: 1.5rem
+
+@media(min-width: 40rem) // 640px
+	.nav-space
+			grid-template-columns: 1fr 1fr 1fr 1fr
+
+	.large-text
+		font-size: 4.2rem
+
+	.intro-text
+		font-size: 1.8rem
+
+	p
+		font-size: 1.2rem
+
+	.paragraph-columns 
+		columns: 20rem 2 //- https://www.w3schools.com/cssref/css3_pr_columns.php
+		column-gap: 4rem //- https://www.w3schools.com/cssref/css3_pr_column-gap.php
+		orphans: 3 //- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_multicol_layout/Handling_content_breaks_in_multicol_layout
+
+@media(min-width: 47rem) 
+	.nav-space
+			grid-template-columns: 1fr 2fr 1fr 1fr
+	.large-text
+		font-size: 5rem
+
+	figure img
+		margin-right: 1rem
+
+	.padded-work
+		width: 70%
+
+	.bottom-space
+		margin-bottom: 6rem
+
+@media(min-width: 57rem) 
+	.nav-space
+		grid-template-columns: 1fr 3fr 1fr 1fr
+
+	.padded-work
+		width: 60%
+
+	.padded-work h3
+		margin-top: 3rem
+
+@media(min-width: 60rem) 
+	.large-text
+		font-size: 6.7rem
+
+	.intro-text
+		font-size: 2.5rem
+
+@media(min-width: 64rem) // 1024px
+	.two-column
+		grid-template-columns: 1fr 1fr
+
+	.project-img //- https://www.freecodecamp.org/news/how-to-center-an-image-in-css/
+		background-color: white
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 100%
+
+	.large-text
+		font-size: 7.4rem
+
+	.padded-work
+		width: 50%
+
+@media(min-width: 66rem)
+	.nav-space
+		grid-template-columns: 1fr 4fr 1fr 1fr
+
+	.large-text
+		font-size: 7.6rem
+
+	h2 
+		font-size: 3.5rem
+
+	h3
+		font-size: 2rem
+
+@media(min-width: 120rem) // 1920px
+	.large-text
+		font-size: 10rem
+
+	.plane img
+		padding: 3rem
+
+@media(min-width: 160rem) // 2560px
+	.large-text
+		font-size: 15rem
+
+	.intro-text
+		font-size: 3rem
