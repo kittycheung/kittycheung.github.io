@@ -1,0 +1,239 @@
+/*	Kitty Cheung 
+ * IAT 339 - P3 Portfolio */
+/***** COLOUR VARIABLES *****/
+/***** GENERAL STYLES *****/
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #FFF9C7;
+}
+
+.padded, footer {
+	padding: 1.5rem;
+}
+
+/***** TYPOGRAPHY *****/
+h1, h2, h3, nav, .btn, label, .large-text, .intro-text {
+	font-family: "Calistoga", serif;
+}
+
+h1, h2, h3, .btn, label {
+	color: #32623A;
+}
+
+.large-text, .intro-text {
+	color: #FFF9C7;
+}
+
+h1 {
+	font-size: 1.3rem;
+	margin: 0rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+li {
+	padding-bottom: 0.5rem;
+}
+
+.paragraph-cap {
+	max-width: 42rem;
+}
+
+.large-text {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.intro-text {
+	display: block;
+	font-size: 1.2rem;
+}
+
+/***** LINKS & BUTTONS *****/
+a {
+	padding: 0.3rem;
+	color: #BA4629;
+}
+
+.text-link:hover, .text-link:focus {
+	background-color: #BA4629;
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #FFF9C7;
+}
+
+nav a {
+	font-size: 1.3rem;
+	text-decoration: none;
+	padding: 0.8rem;
+	color: #32623A;
+	text-align: center;
+}
+
+nav a:hover, nav a:focus {
+	background-color: #32623A;
+	color: white;
+}
+
+nav a:hover h1, nav a:focus h1 {
+	color: white;
+}
+
+.btn {
+	text-decoration: none;
+	padding: 0.5rem;
+	border: solid 0.2rem #32623A;
+	border-radius: 0.6rem;
+	background-color: #32623A;
+	color: white;
+}
+
+a.btn:hover, a.btn:focus {
+	background-color: white;
+	color: #32623A;
+}
+
+a img:hover, a img:focus {
+	opacity: 0.5;
+}
+
+footer a {
+	color: white;
+	margin: -0.3rem;
+}
+
+footer a:hover, footer a:focus {
+	background-color: #FFF9C7;
+	color: #32623A;
+	text-decoration: none;
+}
+
+/***** FORMS *****/
+.form-wrapper {
+	display: table-cell;
+}
+
+label {
+	display: block;
+	margin: 1.8rem 0rem 0.3rem 0rem;
+	font-size: 1.2rem;
+}
+
+input, textarea {
+	border: 0.2rem solid #32623A;
+	line-height: 1.7rem;
+	padding: 0.2rem;
+	max-width: 90%;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+	border-color: #BA4629;
+}
+
+#name, #email, #msg {
+	max-width: 100%;
+}
+
+#msg {
+	margin-bottom: 2rem;
+	margin-right: 2rem;
+}
+
+/***** IMAGES *****/
+.project-img {
+	background-color: white;
+	text-align: center;
+}
+
+.project-img img {
+	max-width: 100%;
+}
+
+figure {
+	width: 95%;
+	margin: auto;
+	padding: 1.5rem 0;
+	text-align: center;
+}
+
+figure img {
+	max-height: 75vh;
+	padding-bottom: 1rem;
+}
+
+figcaption {
+	margin: auto;
+	color: #BA4629;
+	max-width: 57rem;
+}
+
+.plane img {
+	max-height: 70vh;
+}
+
+/***** SECTION-SPECIFIC STYLES *****/
+#about {
+	background-color: #BA4629;
+}
+
+#about p {
+	color: #FFF9C7;
+}
+
+#work p {
+	margin-bottom: 2.5rem;
+}
+
+#contact {
+	background-color: #c9e8c2;
+}
+
+#contact h2 {
+	padding-top: 1.5rem;
+}
+
+.padded-work {
+	margin: auto;
+	width: 80%;
+}
+
+.padded-work h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.add-space-work {
+	padding-top: 1.5rem;
+}
+
+.bottom-space {
+	margin-bottom: 3.5rem;
+}
+
+/***** FOOTER *****/
+footer {
+	background-color: #32623A;
+	padding-bottom: 4rem;
+	color: white;
+}
+
+.ty-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
