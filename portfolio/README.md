@@ -1,3 +1,3 @@
-# p3_portfolio
+# portfolio
 
 Coded with pug and sass.
